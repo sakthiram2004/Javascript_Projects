@@ -1,0 +1,26 @@
+*{
+margin:0%;
+padding:0%;
+boxsizing:bordersize;
+}
+
+body
+{
+width:100%;
+height:100vh;
+background: rgb(86,183,186);
+background: linear-gradient(90deg, rgba(86,183,186,1) 0%, rgba(30,58,112,1) 58%, rgba(72,83,168,1) 100%);
+
+}
+
+
+.clockbox
+{
+margin-top:5em;
+width:8em;
+
+border:2px solid white;
+color:white;
+padding:3%;
+font-size:2em;
+}

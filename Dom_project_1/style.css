@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right, yellow,white);
+}
+.container
+{
+    width: 520px;
+    height: 450px;
+    background: white;
+}
+.header
+{
+    margin-top: 20px;
+    font-size: 1.5em;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 5px;
+    width: 400px;
+    margin-left: 70px;
+}
+
+.main-content
+{
+    width: 80%;
+    height:300px;
+    margin: 30px;
+    font-size: 1.2em;
+}
+.person
+{
+    margin: 20px 50px 20px 50px  ;
+    font-size: 1.3em;
+    color: darkmagenta;
+}
+
+.button-area button
+{
+    width: 10em;
+    height: 2em;
+    background: cadetblue;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+}
